@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - razor_pages_eksamen_fis</title>
+    <title>@ViewData["Title"] Rock Information Player</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -11,19 +11,29 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">razor_pages_eksamen_fis</a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index"> Rock Information Player</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse ">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Information">Information</a>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Login/Auth">Login</a>
+                        </li>
+
+
+
+
+
+
                     </ul>
                 </div>
             </div>
@@ -35,10 +45,25 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted bg-white">
         <div class="container">
-            &copy; 2022 - hvad sker der for det her lort - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2022 - Rock Information Player- <a asp-area="" asp-page="/Information" target="_blank">Information </a>
+            //
+            <a href="https://www.facebook.com/MuseumRagnarock/" target="_blank"> Ragna Rock FaceBook </a>
+            <img height="30 %" src="https://nykobingfc.com/wp-content/uploads/2017/02/Facebook-Logo.png" />
+            //
+            <a href="https://www.instagram.com/museumragnarock/?hl=da" target="_blank"> Ragna Rock Instagram</a>
+            <img height="30 %" src="https://www.orkla.dk/app/uploads/sites/7/2019/12/Instagram-logo.jpg" />
         </div>
+
+        
+
+
+
+
+
+
+
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
